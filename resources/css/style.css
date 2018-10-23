@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    font-family: 'Crimson Text', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background: #eee;
+}
+
+#main {
+    width: 100%;
+}
+
+#title {
+    padding: 45px 0px 25px 0px;
+    text-align: center;
+    line-height: 26px;
+    color: #222;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+#title-head {
+    color: #555;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+#img-div {
+    width: 98.5%;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px auto;
+}
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    width: 80%;
+    margin: 10px auto;
+}
+
+#img-caption {
+    margin: 5px auto;
+    width: 70%;
+    font-size: .89em;
+    font-weight: 500;
+}
+
+#tribute-info {
+    width: 50%;
+    margin: 10px auto;
+}
+
+#tribute-info > p {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #222;
+    padding: 10px;
+}
+
+ul li {
+    line-height: 25px;
+    padding: 5px;
+}
+
+#tribute-link {
+    width: 80%;
+    margin-left: 20%;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 20px;
+    line-height: 25px;
+}
+
+#tribute-link a {
+    text-decoration: none;
+    color: rgb(0, 81, 255);
+}
+
+.quotes  {
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+}
